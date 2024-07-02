@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mytask_app/screens/column_and_row_example.dart';
+import 'package:flutter_mytask_app/screens/einfache_bildergalerie.dart';
 import 'package:flutter_mytask_app/screens/einfaches_quadrat.dart';
+import 'package:flutter_mytask_app/screens/geteilte_liste_mit_dividern.dart';
+import 'package:flutter_mytask_app/screens/icon_mit_beschriftung.dart';
+import 'package:flutter_mytask_app/screens/layout_and_row_and_column.dart';
 import 'package:flutter_mytask_app/screens/list_view.dart';
 import 'package:flutter_mytask_app/screens/list_view_listbuilder.dart';
 import 'package:flutter_mytask_app/screens/list_view_listbuilder_class.dart';
@@ -28,13 +32,19 @@ const Map<String, Widget> tasks = {
   "List View Exercise ListTile": ListViewExerciseListTile(),
   "List View Exercise List Builder": ListViewExerciseListBuilder(),
   "List View Exercise List Builder Class": ListViewExerciseListBuilderClass(),
-  "leer5": Placeholder(),
-  "leer6": Placeholder(),
-  "leer7": Placeholder(),
-  "leer8": Placeholder(),
+  "Einfache Bildergalerie": EinfacheBildergalerie(),
+  "Geteilte Liste mit Dividern": GeteilteListeMitDividern(),
+  "Icon mit Beschriftung": IconMitBeschriftung(),
+  "Layout and Row and Column": LayoutAndRowAndColumn(),
   "leer9": Placeholder(),
   "leer10": Placeholder(),
   "leer11": Placeholder(),
+  "leer12": Placeholder(),
+  "leer13": Placeholder(),
+  "leer14": Placeholder(),
+  "leer15": Placeholder(),
+  "leer16": Placeholder(),
+  "leer17": Placeholder(),
 };
 
 void main() {
