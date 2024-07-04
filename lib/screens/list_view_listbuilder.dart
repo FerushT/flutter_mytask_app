@@ -30,7 +30,7 @@ class ListViewExerciseListBuilder extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: const Text("ListView Exercise"),
+            title: const Text("ListView Exercise List Builder"),
             centerTitle: true,
             leading: IconButton(
               icon: const Icon(Icons.arrow_back_ios_new),
@@ -43,12 +43,12 @@ class ListViewExerciseListBuilder extends StatelessWidget {
               itemCount: products.length,
               itemBuilder: (BuildContext context, int index) {
                 return ListTile(
-                  leading: Icon(Icons.shopping_cart),
+                  leading: const Icon(Icons.shopping_cart),
                   title: Text(products.keys.toList()[index]),
                   horizontalTitleGap: 50,
                   trailing: Text(
                     "\$${products.values.toList()[index]}",
-                    style: TextStyle(fontSize: 15),
+                    style: const TextStyle(fontSize: 15),
                   ),
                 );
               })),

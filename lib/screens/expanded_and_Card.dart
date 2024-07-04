@@ -7,8 +7,8 @@
 
 import 'package:flutter/material.dart';
 
-class UI extends StatelessWidget {
-  const UI({super.key});
+class ExpandedAndCard extends StatelessWidget {
+  const ExpandedAndCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +44,7 @@ class CustomRow extends StatelessWidget {
             width: 100,
             padding: const EdgeInsets.all(16.0),
             child: const Text(
-              'Erste Karte',
+              "Card 1",
               textAlign: TextAlign.center,
             ),
           ),
@@ -54,7 +54,7 @@ class CustomRow extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: const Text(
-                'Expanded Karte',
+                "Expanded Karte",
                 textAlign: TextAlign.center,
               ),
             ),
@@ -65,7 +65,7 @@ class CustomRow extends StatelessWidget {
             width: 100,
             padding: const EdgeInsets.all(16.0),
             child: const Text(
-              'Zweite Karte',
+              "Card 2",
               textAlign: TextAlign.center,
             ),
           ),

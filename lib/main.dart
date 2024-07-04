@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mytask_app/screens/GestureDetector.dart';
 import 'package:flutter_mytask_app/screens/column_and_row_example.dart';
+import 'package:flutter_mytask_app/screens/dialog.dart';
 import 'package:flutter_mytask_app/screens/einfache_bildergalerie.dart';
 import 'package:flutter_mytask_app/screens/einfaches_quadrat.dart';
+import 'package:flutter_mytask_app/screens/expanded_and_Card.dart';
+import 'package:flutter_mytask_app/screens/expandet_widget.dart';
 import 'package:flutter_mytask_app/screens/geteilte_liste_mit_dividern.dart';
 import 'package:flutter_mytask_app/screens/icon_mit_beschriftung.dart';
+import 'package:flutter_mytask_app/screens/kombination.dart';
 import 'package:flutter_mytask_app/screens/layout_and_row_and_column.dart';
 import 'package:flutter_mytask_app/screens/list_view.dart';
 import 'package:flutter_mytask_app/screens/list_view_listbuilder.dart';
 import 'package:flutter_mytask_app/screens/list_view_listbuilder_class.dart';
+import 'package:flutter_mytask_app/screens/list_view_listbuilder_class_shoppingBag.dart';
 import 'package:flutter_mytask_app/screens/list_view_listtile.dart';
+import 'package:flutter_mytask_app/screens/showModalBottomSheet.dart';
+import 'package:flutter_mytask_app/screens/showModalBottomSheetPersistent.dart';
+import 'package:flutter_mytask_app/screens/snackbar_and_Dialog.dart';
 
 // import 'package:flutter/material.dart';
 
@@ -25,7 +34,7 @@ import 'package:flutter_mytask_app/screens/list_view_listtile.dart';
         ),
 */
 
-const Map<String, Widget> tasks = {
+Map<String, Widget> tasks = {
   'Column And Row Example': ColumnAndRowExample(),
   "Einfaches Quadrat": EinfachesQuadrat(),
   "List View Exercise": ListViewExercise(),
@@ -36,15 +45,26 @@ const Map<String, Widget> tasks = {
   "Geteilte Liste mit Dividern": GeteilteListeMitDividern(),
   "Icon mit Beschriftung": IconMitBeschriftung(),
   "Layout and Row and Column": LayoutAndRowAndColumn(),
-  "leer9": Placeholder(),
-  "leer10": Placeholder(),
-  "leer11": Placeholder(),
-  "leer12": Placeholder(),
-  "leer13": Placeholder(),
-  "leer14": Placeholder(),
-  "leer15": Placeholder(),
-  "leer16": Placeholder(),
-  "leer17": Placeholder(),
+  "Product Repository": ListViewExerciseListBuilderClass(),
+  "Warenkorb": ListViewExerciseListBuilderClassShoppingBag(),
+  "Expandet Widget": ExpandetWidget(),
+  "Dialog": HinweisDialog(),
+  "Expanded and Card": ExpandedAndCard(),
+  "Snackbar and Dialog": SnackbarAndDialog(),
+  "Kombination": Kombination(),
+  "BigRed": BigRed(),
+  "ModalesBottom": ModalesBottom(),
+  "PersistentBottom": PersistentBottom(),
+  "leer20": Placeholder(),
+  "leer21": Placeholder(),
+  "leer22": Placeholder(),
+  "leer23": Placeholder(),
+  "leer24": Placeholder(),
+  "leer25": Placeholder(),
+  "leer26": Placeholder(),
+  "leer27": Placeholder(),
+  "leer28": Placeholder(),
+  "leer29": Placeholder(),
 };
 
 void main() {

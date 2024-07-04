@@ -21,7 +21,7 @@ class ListViewExerciseListTile extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: const Text("ListView Exercise"),
+            title: const Text("ListView Exercise List Tile"),
             centerTitle: true,
             leading: IconButton(
               icon: const Icon(Icons.arrow_back_ios_new),
@@ -31,7 +31,7 @@ class ListViewExerciseListTile extends StatelessWidget {
             ),
           ),
           body: ListView(
-            children: [
+            children: const [
               ListTile(
                 leading: Icon(Icons.shopping_cart),
                 title: Text("Product  1"),
